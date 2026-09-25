@@ -1,0 +1,7 @@
+flask>=2.0
+gunicorn>=21.2
+pandas>=1.5
+numpy>=1.23
+scikit-learn>=1.2
+# CPU-only build of xgboost: much smaller than `xgboost` (no CUDA), fits the free 512 MB instance
+xgboost-cpu>=2.1
